@@ -34,6 +34,13 @@ When the Engduino is positioned horizontally with the LEDs down, the game is put
 
 All data transfers are made via the USB port. No data is stored on the Engduino. To make sure that the computer knows to connect to the Engduino and that it gets valid data from him, we are adding a initialisation string at the beginning of each message. After the string, we send the position of the Engduino. Each position is defined through a number from 0 to 5, with 6 corresponding to the ButtonWasPressed() event.
 
-The program that runs on the computer (and that uses the Processing programming language) checks automatically all available ports until it find the (right) Engduino and it connects to it. No data is sent back to the Engduino. Therefore, the setup should be pretty straightforward: connect the Engduino to the PC via USB, upload the Engduino code on the device and run the Processing code.
-
 Visually, the snake is represented through a series of black squares with a red outline and the food is represented by a blue square. Each square is 20 by 20 pixels and the game board counts 40 squares in width and 40 in height, hence a total of 1600 positions. Despite the low speed and the very big board, the game increases its difficulty very quickly due to the snake that continuously grows in size.
+
+## Setup
+
+The project consists of two files:
+
+- **EngduinoSketch.ino** - the C++ code that runs on the microcontroller
+- **ProcessingSketch.pde** - the Processing code that consists of the game engine and runs on the computer
+
+The Processing program checks automatically all available ports until it finds the (right) Engduino running Snake and it connects to it. No data is sent back to the Engduino. Therefore, the setup is very straightforward: connect the Engduino to the PC via USB, upload the Engduino code on the device and run the Processing code.
