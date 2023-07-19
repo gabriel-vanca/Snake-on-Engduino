@@ -40,11 +40,11 @@ void draw()
       MainBoard.DrawGameOver();   
 }
 
-//  Engduino connection code
+//  Engduino connection and initialisation code
 
   Serial Engduino;
   
-  String PortCode = "UCL@";
+  String PortCode = "SNAKE@";
 
   boolean ConnectedToPort = false;
   boolean TryingToConnectToPort = false;

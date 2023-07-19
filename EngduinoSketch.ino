@@ -118,7 +118,7 @@ void loop()
   char optionStr[5];
   itoa(option,optionStr,10);
   char response[30];
-  memcpy(response, "UCL@", 4);  //I'm send the string "UCL@" at the beggining of each message so that the PC knows that the data is coming from the Engduino
+  memcpy(response, "SNAKE@", 4);  //Send the string "SNAKE@" at the beggining of each message so that the PC knows that the data is coming from the Engduino
   memcpy(response + 4, optionStr, strlen(optionStr) + 1); 
   Serial.println(response);
   delay(150);
