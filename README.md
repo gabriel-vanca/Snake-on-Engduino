@@ -12,7 +12,7 @@ The snake can move in four directions: up, down, left and right. The snake never
 
 The way through which the player controls the snake is by tilting the Engduino onward, backward, left and right.
 
-![1689806751085](https://file+.vscode-resource.vscode-cdn.net/d%3A/OneDrive%20-%20ANDROMEDA/Git%20Repositories/Snake%20on%20Engduino/image/README/1689806751085.png)
+![1689806751085](image/README/1689806751085.png)
 
 
 At the start of the game, the player holds the Engduino with the LEDs faced up and the USB port towards him. This is a neutral position and the snake will not change its direction when the Engduino is position this way. When the user tilts the device, the snake will change its direction. Also, visual feedback will be provided to the user through the Engduino LEDs that will turn on depending on the direction that the snake is moving.
@@ -28,7 +28,7 @@ There are 6 positions for the Engduino that are defined in the program code:
 
 When the Engduino is positioned horizontally with the LEDs down, the game is put on pause mode. Pressing the button on the Engduino can also pause the game. The game can be unpaused only though the same way that it was paused.
 
-![1689806810893](https://file+.vscode-resource.vscode-cdn.net/d%3A/OneDrive%20-%20ANDROMEDA/Git%20Repositories/Snake%20on%20Engduino/image/README/1689806810893.png)
+![1689806810893](image/README/1689806810893.png)
 
 ## Game Design
 
